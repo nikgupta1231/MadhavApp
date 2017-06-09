@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">demo madhav app</string>
+    <string name="action_plan">Action Plan</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="contact_person">Contact Person</string>
+    <string name="customer_location">Customer Location</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="department">Department</string>
+    <string name="discussion">Discussion</string>
+    <string name="email_id">Email Id</string>
+    <string name="remarks">Remarks</string>
+    <string name="submit">Submit</string>
+    <string name="timeline">Timeline</string>
+</resources>

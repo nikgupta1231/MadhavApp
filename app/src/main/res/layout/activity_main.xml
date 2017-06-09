@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.nik.demomadhavapp.MainActivity">
+
+        <EditText
+            android:id="@+id/custName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/box"
+            android:hint="@string/customer_name"
+            android:paddingEnd="6dp"
+            android:paddingStart="6dp"
+            android:textColorHint="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/custLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/box"
+            android:hint="@string/customer_location"
+            android:paddingEnd="6dp"
+            android:paddingStart="6dp"
+            android:textColorHint="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/contactPerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/contact_person" />
+
+        <EditText
+            android:id="@+id/custNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/box"
+            android:hint="@string/contact_number"
+            android:inputType="numberSigned"
+            android:paddingEnd="6dp"
+            android:paddingStart="6dp"
+            android:textColorHint="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/custEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/box"
+            android:hint="@string/email_id"
+            android:inputType="textEmailAddress"
+            android:paddingEnd="6dp"
+            android:paddingStart="6dp"
+            android:textColorHint="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/custDepartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/box"
+            android:hint="@string/department"
+            android:paddingEnd="6dp"
+            android:paddingStart="6dp"
+            android:textColorHint="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/discussion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/box"
+            android:hint="@string/discussion"
+            android:minLines="4"
+            android:paddingEnd="6dp"
+            android:paddingStart="6dp"
+            android:textAlignment="textStart"
+            android:textColorHint="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/actionPlan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/box"
+            android:hint="@string/action_plan"
+            android:paddingEnd="6dp"
+            android:paddingStart="6dp"
+            android:textColorHint="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/timeline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/box"
+            android:hint="@string/timeline"
+            android:inputType="date"
+            android:paddingEnd="6dp"
+            android:paddingStart="6dp"
+            android:textColorHint="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/agentRemark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/box"
+            android:hint="@string/remarks"
+            android:minLines="3"
+            android:paddingEnd="6dp"
+            android:paddingStart="6dp"
+            android:textColorHint="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/subnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+</ScrollView>

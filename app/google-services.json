@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "623139495315",
+    "project_id": "firebase-demo-madhav-app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623139495315:android:9163c0ed602ae850",
+        "android_client_info": {
+          "package_name": "com.example.nik.demomadhavapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623139495315-a5nukdkqfh4e87rlq6jgvhsihtvoen1c.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "623139495315-t7at813j767eis1vu2ee1e1frlkqjdca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nik.demomadhavapp",
+            "certificate_hash": "1cf84d352bbcd7bba5160e5deb13c5fa87200fd7"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVlROkgIFje4QPd6hPFlzGT1WmYEogvyw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
